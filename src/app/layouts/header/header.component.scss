@@ -1,5 +1,41 @@
 @import "global";
 
-.header{
+.header {
   background-color: $dark-background;
+
+  .nav__toggle {
+    color: $primary-green;
+    transition: 0.3s linear;
+    border: 2px solid $primary-green;
+    &:hover {
+      background-color: rgba($color: $light-green, $alpha: 0.25);
+    }
+  }
+
+  .nav__list {
+    background-color: $dark-background;
+    gap: 0.5rem;
+    a {
+      color: $white-color;
+      background: transparent;
+      transition: color 0.2s, background 0.2s;
+
+      &:hover,
+      &.active{
+        color: $primary-green;
+      }
+    }
+  }
+  @media screen and (max-width: $max_mobile) {
+    .nav__list {
+      a {
+        &:hover,
+        &.active,
+        &[aria-current="page"] {
+          color: $dark-background;
+          background: $primary-green;
+        }
+      }
+    }
+  }
 }
