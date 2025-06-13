@@ -7,3 +7,26 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: $dark-background;
 }
+
+.text__Section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .section__header {
+    color: $white-color;
+    font-size: 1.375rem;
+    line-height: 28px;
+    font-weight: bold;
+  }
+
+  .section__paragraph {
+    color: $white-color;
+    font-size: 1rem;
+    line-height: 24px;
+
+    &.green__text {
+      color: $primary-green;
+    }
+  }
+}
