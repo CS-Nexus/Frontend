@@ -14,20 +14,24 @@
 
   .nav__list {
     background-color: $dark-background;
-    gap: 0.5rem;
     a {
       color: $white-color;
       background: transparent;
       transition: color 0.2s, background 0.2s;
 
       &:hover,
-      &.active{
+      &.active {
         color: $primary-green;
       }
+    }
+
+    .welcome__btn {
+      background-color: $primary-green;
     }
   }
   @media screen and (max-width: $max_mobile) {
     .nav__list {
+      gap: 0.5rem;
       a {
         &:hover,
         &.active,
