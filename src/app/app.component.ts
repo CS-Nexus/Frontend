@@ -8,7 +8,7 @@ import { initFlowbite } from 'flowbite';
   styleUrl: './app.component.scss',
 })
 export class AppComponent implements OnInit {
-  title = 'project-structure';
+  title = 'Nexus';
   ngOnInit(): void {
     initFlowbite();
   }
