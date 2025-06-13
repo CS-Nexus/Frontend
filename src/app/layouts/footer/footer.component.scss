@@ -1,0 +1,21 @@
+@import "global";
+
+footer {
+  color: $light-green;
+  font-size: 1rem;
+  line-height: 24px;
+
+  .hoverenable__text {
+    a {
+      cursor: pointer;
+      &:hover {
+        color: $primary-green;
+        transition: 0.3s linear;
+      }
+    }
+  }
+
+  .logo__word{
+    color: $primary-green;
+  }
+}
