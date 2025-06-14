@@ -1,0 +1,24 @@
+@import "global";
+
+.project__page {
+  .project__name {
+    font-size: 2rem;
+    line-height: 40px;
+    color: $white-color;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: $max_mobile) {
+    .project__name {
+      font-size: 1.5rem;
+      line-height: 30px;
+    }
+  }
+
+  @media screen and (max-width: $max_small_mobile) {
+    .project__name {
+      font-size: 1.2rem;
+      line-height: 25px;
+    }
+  }
+}
