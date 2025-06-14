@@ -1,0 +1,70 @@
+@import "global";
+.home__image {
+  position: relative;
+  img {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    border-radius: 0.5rem;
+  }
+
+  .img__text {
+    position: absolute;
+    left: 24px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: $white-color;
+
+    h2 {
+      font-size: 3rem;
+      line-height: 60px;
+      letter-spacing: -2px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 24px;
+    }
+  }
+
+  @media screen and (max-width: $max_tablet) {
+    img {
+      aspect-ratio: 16 / 9;
+    }
+
+    .img__text {
+      left: 20px;
+      bottom: 20px;
+
+      h2 {
+        font-size: 2.5rem;
+        line-height: 48px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $max_mobile) {
+    .home__image {
+      img {
+        aspect-ratio: 1 / 1;
+      }
+
+      .img__text {
+        left: 16px;
+        bottom: 16px;
+
+        h2 {
+          font-size: 1.5rem;
+          line-height: 30px;
+        }
+
+        p {
+          font-size: 0.875rem;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
