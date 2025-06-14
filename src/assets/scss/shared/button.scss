@@ -1,0 +1,37 @@
+@import "global";
+
+.primary__btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: $primary-green;
+  color: $black-color;
+  border-radius: 0.25rem;
+  transition: 0.3s linear;
+  border: 1px solid $primary-green;
+
+  &:hover {
+    background-color: transparent;
+    color: $primary-green;
+  }
+}
+
+.primary__outline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: $primary-green;
+  border-radius: 0.25rem;
+  transition: 0.3s linear;
+  border: 1px solid $primary-green;
+
+  &:hover {
+    background-color: $primary-green;
+    color: $black-color;
+  }
+}

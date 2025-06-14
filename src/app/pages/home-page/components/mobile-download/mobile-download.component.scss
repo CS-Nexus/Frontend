@@ -1,0 +1,85 @@
+@import "global";
+
+.mobile__download {
+  background: $card-color;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 2.5rem 2rem;
+  position: relative;
+  overflow: visible;
+  margin-top: 2.5rem;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1 1 0;
+    min-width: 0;
+
+    h2 {
+      font-size: 2.25rem;
+      color: $white-color;
+      font-weight: 800;
+      line-height: 1.1;
+      margin: 0;
+    }
+
+    .subtitle {
+      color: $light-green;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      font-weight: 400;
+    }
+  }
+
+  .right {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+
+    .mockup__wrapper {
+      position: relative;
+      width: 270px;
+      height: 520px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-right: -2rem;
+
+      img {
+        width: 100%;
+        max-width: 270px;
+        border-radius: 1.5rem;
+        object-fit: cover;
+      }
+    }
+  }
+
+  @media (max-width: $max_mobile) {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    padding: 2rem 1rem;
+
+    .left {
+      h2 {
+        font-size: 1.75rem;
+        line-height: 1;
+      }
+    }
+
+    .right {
+      justify-content: center;
+      margin-top: 2rem;
+
+      .mockup__wrapper {
+        margin-right: 0;
+      }
+    }
+  }
+}
