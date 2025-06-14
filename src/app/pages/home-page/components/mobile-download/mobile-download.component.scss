@@ -12,6 +12,7 @@
   position: relative;
   overflow: visible;
   margin-top: 2.5rem;
+  overflow: hidden;
 
   .left {
     display: flex;
@@ -42,6 +43,8 @@
     justify-content: center;
     align-items: center;
     min-width: 0;
+    position: relative;
+    z-index: 3;
 
     .mockup__wrapper {
       position: relative;
@@ -59,6 +62,16 @@
         object-fit: cover;
       }
     }
+  }
+
+  .circle{
+    position: absolute;
+    right: -250px;
+    bottom: -250px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: $primary-green;
   }
 
   @media (max-width: $max_mobile) {
@@ -80,6 +93,11 @@
       .mockup__wrapper {
         margin-right: 0;
       }
+    }
+
+    .circle{
+      bottom: unset;
+      top: -250px;
     }
   }
 }
