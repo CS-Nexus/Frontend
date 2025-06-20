@@ -4,7 +4,7 @@ export const mileStones: IMilestone[] = [
   {
     title: 'Environment and Scenario Development',
     status: 'Completed',
-    icon: 'bootstrapCheck2',
+    icon: 'bootstrapCheckCircle',
   },
   {
     title: 'User Testing and Refinement',

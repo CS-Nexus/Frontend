@@ -1,0 +1,42 @@
+@import "global";
+.milestones {
+  .milestone {
+    .milestone__status {
+      display: flex;
+      width: 24px;
+      height: 24px;
+      position: relative;
+      font-size: 24px;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: calc(100% + 8px);
+        display: block;
+        width: 2px;
+        height: 32px;
+        background-color: $timeline-background;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: calc(100% + 42px);
+        display: block;
+        width: 2px;
+        height: 8px;
+        background-color: $timeline-background;
+      }
+    }
+    &:last-child {
+      .milestone__status {
+        &::before,
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

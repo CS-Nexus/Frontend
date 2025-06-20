@@ -1,0 +1,17 @@
+<div class="project__section">
+  <h3 class="section__title">Milestone</h3>
+  <div class="milestones flex flex-col gap-[36px]">
+    @for (milestone of mileStonesDetails; track $index) {
+    <div class="milestone flex gap-4">
+      <div class="milestone__status text-[24px]">
+        <ng-icon [name]="milestone.icon"></ng-icon>
+      </div>
+
+      <div class="milestone__details flex flex-col">
+        <h4>{{ milestone.title }}</h4>
+        <p class="text-[#B0B89E]">{{ milestone.status }}</p>
+      </div>
+    </div>
+    }
+  </div>
+</div>
