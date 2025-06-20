@@ -1,10 +1,11 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { ProjectProblemComponent } from "./components/project-problem/project-problem.component";
 import { ProposedSolutionComponent } from "./components/proposed-solution/proposed-solution.component";
+import { ProjectGoalsComponent } from "./components/project-goals/project-goals.component";
 
 @Component({
   selector: 'app-project-page',
-  imports: [ProjectProblemComponent, ProposedSolutionComponent],
+  imports: [ProjectProblemComponent, ProposedSolutionComponent, ProjectGoalsComponent],
   templateUrl: './project-page.component.html',
   styleUrl: './project-page.component.scss',
   encapsulation: ViewEncapsulation.None
