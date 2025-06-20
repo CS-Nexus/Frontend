@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
+import { ProjectProblemComponent } from "./components/project-problem/project-problem.component";
 
 @Component({
   selector: 'app-project-page',
-  imports: [],
+  imports: [ProjectProblemComponent],
   templateUrl: './project-page.component.html',
-  styleUrl: './project-page.component.scss'
+  styleUrl: './project-page.component.scss',
+  encapsulation: ViewEncapsulation.None
 })
 export class ProjectPageComponent {
 

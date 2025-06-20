@@ -8,10 +8,47 @@
     font-weight: bold;
   }
 
+  .project__section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: $white-color;
+
+    .section__title {
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: bold;
+    }
+
+    .section__text {
+      font-size: 1rem;
+      line-height: 24px;
+    }
+
+    .section__img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin-top: 0.5rem;
+      max-height: 500px;
+      border-radius: 0.5rem;
+    }
+  }
+
   @media screen and (max-width: $max_mobile) {
+    gap: 24px;
     .project__name {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
       line-height: 30px;
+    }
+
+    .project__section {
+      .section__title {
+        font-size: 1.25rem;
+      }
+
+      .section__text {
+        font-size: 0.875rem;
+      }
     }
   }
 
