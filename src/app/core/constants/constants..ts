@@ -1,4 +1,6 @@
-export const environments = [
+import { IEnvironment } from '../interfaces/ienviroment';
+
+export const environments: IEnvironment[] = [
   {
     id: 0,
     imgPath: 'assets/media/images/project/home.png',
