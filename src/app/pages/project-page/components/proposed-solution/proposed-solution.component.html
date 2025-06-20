@@ -1,0 +1,65 @@
+<div class="problem__section project__section !gap-5">
+  <h3 class="section__title">Proposed Solution</h3>
+  <p class="section__text">
+    Our VR Emergency Training Simulation provides an immersive and interactive
+    platform for individuals to practice responding to various emergency
+    scenarios in a safe and controlled environment. Key features include:
+  </p>
+
+  <div class="solutions">
+    @for (sol of solutions; track $index) {
+    <div class="solution">
+      <div class="solution__icon">
+        <ng-icon [name]="sol.icon"></ng-icon>
+      </div>
+      <p class="solution__text">
+        {{ sol.title }}
+      </p>
+    </div>
+    }
+  </div>
+
+  <div class="flex lg:flex-row flex-col min-h-[70vh] gap-4">
+    @for (env of environmentDetails; track env.id) {
+    <div
+      class="relative flex item-center justify-center min-w-[170px] h-[500px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer"
+      [ngClass]="
+        active === env.id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
+      "
+      (click)="handleClick(env.id)"
+    >
+      <img
+        [src]="env.imgPath"
+        [alt]="env.title"
+        class="absolute w-full h-full object-cover rounded-[1rem]"
+      />
+
+      @if(active !== env.id){
+      <h3
+        class="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin[0,0]"
+      >
+        {{ env.title }}
+      </h3>
+      }@else{
+      <div
+        class="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.8)] rounded-b-[1em]"
+      >
+        <div
+          class="text-[2.5rem] w-[60px] h-[60px] rounded-[1rem] glassmorphism"
+        >
+          <ng-icon name="bootstrapHeadsetVr"></ng-icon>
+        </div>
+        <p class="font-normal text-[16px] leading-[20px] text-white">
+          {{ env.description }}
+        </p>
+        <h2
+          class="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white"
+        >
+          {{ env.title }}
+        </h2>
+      </div>
+      }
+    </div>
+    }
+  </div>
+</div>

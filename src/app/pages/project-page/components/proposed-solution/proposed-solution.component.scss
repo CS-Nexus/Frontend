@@ -1,0 +1,29 @@
+@import "global";
+.solutions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .solution {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .solution__icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 0.5rem;
+      background-color: $dark-grey;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+    }
+
+    .solution__text{
+      font-size: 1rem;
+      line-height: 24px;
+    }
+  }
+}
