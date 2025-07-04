@@ -21,7 +21,7 @@ export const teamData: ITeamData[] = [
         link: 'https://eh-ihabmahmoud.netlify.app/',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
+    toolsUsed: ['Angular', 'Unity', 'TypeScript'],
     image: 'assets/media/images/team/avatars/ihab.jpg',
   },
   {
@@ -51,7 +51,8 @@ export const teamData: ITeamData[] = [
     id: 2,
     name: 'omar tarek',
     role: ['3D model', 'character designer', 'environment designer'],
-    description: '',
+    description:
+      'I contributed to the design of 3D objects and models for 3D game environments using 3D techniques.',
     social: [
       {
         icon: 'bootstrapLinkedin',
@@ -59,7 +60,7 @@ export const teamData: ITeamData[] = [
       },
     ],
     toolsUsed: ['blender'],
-    image: '',
+    image: 'assets/media/images/team/avatars/omar.jpeg',
   },
   {
     id: 3,
@@ -77,8 +78,14 @@ export const teamData: ITeamData[] = [
         link: 'http://www.linkedin.com/in/nabil-ibrahim-453529314',
       },
     ],
-    toolsUsed: [],
-    image: '',
+    toolsUsed: [
+      'python',
+      'Google 1.5 pro',
+      'google. generativeai',
+      'python-dotenv',
+      'flask',
+    ],
+    image: 'assets/media/images/team/avatars/nabil.jpeg',
   },
   {
     id: 4,
@@ -105,6 +112,25 @@ export const teamData: ITeamData[] = [
   },
   {
     id: 5,
+    name: 'amera mahmoud',
+    role: ['Backend Developer'],
+    description:
+      'As a backend developer on my graduation project Nexus Backend, I designed and implemented a secure, scalable RESTful API using ASP.NET Core (.NET 8). My role included developing JWT-based authentication, role-based authorization, Stripe payment integration, and real-time features with SignalR. I also structured the project using a modular architecture with Entity Framework Core and provided API documentation and testing support using Swagger/OpenAPI.',
+    social: [
+      {
+        icon: 'bootstrapGithub',
+        link: 'https://github.com/Ameramahmoud22',
+      },
+      {
+        icon: 'bootstrapLinkedin',
+        link: 'https://www.linkedin.com/in/amera-elbassal-50b984272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      },
+    ],
+    toolsUsed: ['.NET', 'Visual Studio', 'SSMS', 'git & GitHub', 'Azure'],
+    image: 'assets/media/images/team/avatars/amera.jpg',
+  },
+  {
+    id: 6,
     name: 'Eman Khater',
     role: ['3D Designer'],
     description:
@@ -119,11 +145,11 @@ export const teamData: ITeamData[] = [
         link: 'https://www.instagram.com/eman_m397?igsh=MWdvd3c0Njl5bHBseQ==',
       },
     ],
-    toolsUsed: [],
+    toolsUsed: ['Blender'],
     image: 'assets/media/images/team/avatars/eman.jpg',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Muhammad Issa',
     role: ['Mobile App Developer'],
     description:
@@ -144,29 +170,6 @@ export const teamData: ITeamData[] = [
     ],
     toolsUsed: ['Flutter'],
     image: '',
-  },
-  {
-    id: 7,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
-    description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
-    social: [
-      {
-        icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
-      },
-      {
-        icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
-      },
-      {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
-      },
-    ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
   },
   {
     id: 8,
