@@ -37,7 +37,7 @@
 
       <div class="flex items-center gap-2">
         @for (social of activeMember.social; track $index) {
-        <a [href]="social.link">
+        <a target="_blank" [href]="social.link">
           <ng-icon [name]="social.icon"></ng-icon>
         </a>
         }

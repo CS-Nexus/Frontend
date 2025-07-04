@@ -2,7 +2,7 @@
 .team__page {
   .team__header {
     color: $white-color;
-    font-size: 22px;
+    font-size: 32px;
     line-height: 28px;
     font-weight: bold;
     text-align: center;
@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    margin: 1.5rem auto;
+    margin: 1.5rem auto 3rem;
     .item__image {
       cursor: pointer;
       img {

@@ -44,7 +44,7 @@ export const teamData: ITeamData[] = [
         link: 'https://www.instagram.com/ahmedgalal_21/',
       },
     ],
-    toolsUsed: ['Photoshop', 'Photoshop', 'Blender'],
+    toolsUsed: ['Photoshop', 'Illustrator', 'Blender'],
     image: 'assets/media/images/team/avatars/galal.jpeg',
   },
   {
@@ -126,7 +126,15 @@ export const teamData: ITeamData[] = [
         link: 'https://www.linkedin.com/in/amera-elbassal-50b984272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
       },
     ],
-    toolsUsed: ['.NET', 'Visual Studio', 'SSMS', 'git & GitHub', 'Azure'],
+    toolsUsed: [
+      '.NET',
+      'SMTP',
+      'SignalR',
+      'Visual Studio',
+      'SSMS',
+      'git & GitHub',
+      'Azure',
+    ],
     image: 'assets/media/images/team/avatars/amera.jpg',
   },
   {
@@ -168,31 +176,27 @@ export const teamData: ITeamData[] = [
         link: 'mu7ammad.3issa@gmail.com',
       },
     ],
-    toolsUsed: ['Flutter'],
-    image: '',
+    toolsUsed: ['Flutter', 'Gemini', 'Figma', 'Azure', 'Firebase'],
+    image: 'assets/media/images/team/avatars/muhammed.jpeg',
   },
   {
     id: 8,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
+    name: 'Amr Ahmed',
+    role: ['AI Developer'],
     description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
+      'Responsible for training and optimizing deep learning models used in burn detection.Python, TensorFlow, Keras, OpenCV, Flask',
     social: [
       {
         icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
+        link: 'https://github.com/AmrAhmedZakaria',
       },
       {
         icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
-      },
-      {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
+        link: 'https://www.linkedin.com/in/amr-ahmed-1b529a223',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    toolsUsed: ['Python', 'TensorFlow', 'Keras', 'OpenCV', 'Flask'],
+    image: 'assets/media/images/team/avatars/amr.jpeg',
   },
   {
     id: 9,
@@ -215,6 +219,6 @@ export const teamData: ITeamData[] = [
       },
     ],
     toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    image: 'assets/media/images/team/avatars/',
   },
 ];
