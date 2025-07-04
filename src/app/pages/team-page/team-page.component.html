@@ -1,1 +1,16 @@
-<p>team-page works!</p>
+<div class="team__page">
+  <h2 class="team__header">Meet Our Team</h2>
+
+  <div class="team__avatars">
+    @for (item of teamDataArr; track item.id) {
+    <div class="item__image" (click)="setActiveImg(item.id)">
+      <img
+        [ngClass]="{ active: item.id == activeImg }"
+        [src]="item.image"
+        [alt]="item.name"
+        [title]="item.name"
+      />
+    </div>
+  }
+  </div>
+</div>

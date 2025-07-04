@@ -1,0 +1,44 @@
+@import "global";
+.team__page {
+  .team__header {
+    color: $white-color;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .team__avatars {
+    position: relative;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin: 1.5rem auto;
+    .item__image {
+      cursor: pointer;
+      img {
+        width: 64px;
+        height: 64px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        opacity: 0.4;
+        transition: 0.3s linear;
+        user-select: none;
+        &.active {
+          opacity: 10;
+          border: 2px solid $primary-green;
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $max_mobile){
+    .team__avatars{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
