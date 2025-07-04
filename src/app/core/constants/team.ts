@@ -26,141 +26,124 @@ export const teamData: ITeamData[] = [
   },
   {
     id: 1,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
+    name: 'Ahmed galal',
+    role: ['Graphic Designer', '3D Modeling'],
     description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
+      'I designed the full visual identity of the project, including the logo, color palette, and overall theme.I also contributed to modeling 3D elements of the game environment using 3D modeling techniques.',
     social: [
       {
-        icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
+        icon: 'bootstrapBehance',
+        link: 'https://www.behance.net/ahmedgalal165',
       },
       {
         icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
+        link: 'https://www.linkedin.com/in/ahmed-galal-406100265',
       },
       {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
+        icon: 'bootstrapInstagram',
+        link: 'https://www.instagram.com/ahmedgalal_21/',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    toolsUsed: ['Photoshop', 'Photoshop', 'Blender'],
+    image: 'assets/media/images/team/avatars/galal.jpeg',
   },
   {
     id: 2,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
-    description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
+    name: 'omar tarek',
+    role: ['3D model', 'character designer', 'environment designer'],
+    description: '',
     social: [
       {
-        icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
-      },
-      {
         icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
-      },
-      {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
+        link: 'https://www.linkedin.com/in/omar-bastawese-graphic-designer2dand3dandmotionandanimation?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    toolsUsed: ['blender'],
+    image: '',
   },
   {
     id: 3,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
+    name: 'Nabil Abdullah',
+    role: [' AI Developer'],
     description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
+      "I'm passionate about AI and machine learning. I enjoy working on smart systems that can understand and respond like humans. I mainly focus on building and training models, and exploring how technology can solve real-world problems.",
     social: [
       {
         icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
+        link: 'https://github.com/Nabil-Abdalla',
       },
       {
         icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
-      },
-      {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
+        link: 'http://www.linkedin.com/in/nabil-ibrahim-453529314',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    toolsUsed: [],
+    image: '',
   },
   {
     id: 4,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
+    name: 'Esraa Morsii',
+    role: ['UIUX Designer'],
     description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
+      'My role was to blend functionality with creativity, guiding users through a powerful virtual reality experience where every screen teaches, supports, and prepares them for real-life emergencies.',
     social: [
       {
-        icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
+        icon: 'bootstrapBehance',
+        link: 'https://www.behance.net/esraamorsii10',
       },
       {
         icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
+        link: 'https://www.linkedin.com/in/esraa-morsii-a9a65024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
       },
       {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
+        icon: 'bootstrapInstagram',
+        link: 'https://www.instagram.com/esraamorsii?igsh=MTRydm44cjRmcWdpMg%3D%3D&utm_source=qr',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    toolsUsed: ['Figma'],
+    image: 'assets/media/images/team/avatars/esraa.jpg',
   },
   {
     id: 5,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
+    name: 'Eman Khater',
+    role: ['3D Designer'],
     description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
+      'Designed 3D assets and scenes to bring the VR training experience to life.',
     social: [
       {
-        icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
-      },
-      {
         icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
+        link: 'https://www.linkedin.com/in/eman-khater-402055308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       },
       {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
+        icon: 'bootstrapInstagram',
+        link: 'https://www.instagram.com/eman_m397?igsh=MWdvd3c0Njl5bHBseQ==',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    toolsUsed: [],
+    image: 'assets/media/images/team/avatars/eman.jpg',
   },
   {
     id: 6,
-    name: 'ihab mahmoud',
-    role: ['team leader', 'frontend', 'game developer'],
+    name: 'Muhammad Issa',
+    role: ['Mobile App Developer'],
     description:
-      "I'm ihab mahmoud a team leader of nexus, frontend developer, and game developer who focus on game environment.",
+      'Developed a companion mobile app for the Nexus VR emergency response simulator.',
     social: [
       {
         icon: 'bootstrapGithub',
-        link: 'https://github.com/EHAB3x',
+        link: 'https://github.com/mu7ammad-3issa',
       },
       {
         icon: 'bootstrapLinkedin',
-        link: 'www.linkedin.com/in/ihabmahmoud1',
+        link: 'https://www.linkedin.com/in/mu7ammad-3issa/',
       },
       {
-        icon: 'bootstrapGlobe',
-        link: 'https://eh-ihabmahmoud.netlify.app/',
+        icon: 'bootstrapMailbox',
+        link: 'mu7ammad.3issa@gmail.com',
       },
     ],
-    toolsUsed: ['Angular', 'Unity', 'JavaScript', 'TypeScript'],
-    image: 'assets/media/images/team/avatars/ihab.jpg',
+    toolsUsed: ['Flutter'],
+    image: '',
   },
   {
     id: 7,
