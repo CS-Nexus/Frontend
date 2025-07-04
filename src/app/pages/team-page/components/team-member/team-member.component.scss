@@ -75,6 +75,13 @@
   @media screen and (max-width: 768px) {
     flex-direction: column;
 
+    .member__image {
+      max-height: 350px;
+      img {
+        max-height: 350px;
+      }
+    }
+
     .member__content {
       .member__desc {
         max-width: unset;
